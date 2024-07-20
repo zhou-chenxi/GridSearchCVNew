@@ -9,4 +9,4 @@ Currently, [`GridSearchCVNew`](https://github.com/zhou-chenxi/GridSearchNew/blob
 
 Chenxi Zhou – chenxizhou.jayden@gmail.com
 
-[https://github.com/zhoucx-chenxi/GridSearchCVNew]([https://github.com/zhoucx1119/dekef](https://github.com/zhoucx-chenxi/GridSearchCVNew))
+[https://github.com/zhoucx-chenxi/GridSearchCVNew](https://github.com/zhou-chenxi/GridSearchCVNew)
