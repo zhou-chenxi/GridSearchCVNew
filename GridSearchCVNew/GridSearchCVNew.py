@@ -64,7 +64,7 @@ def evaluate_clf(estimator, X_train, y_train, X_test, y_test, class_weight):
     return metrics
 
 
-class GridSearchCV_NEW(): 
+class GridSearchCVNew(): 
     
     def __init__(self, estimator, cv_folds, param_grid = None, param_grid_list = None, class_weight_xgboost = None): 
 
