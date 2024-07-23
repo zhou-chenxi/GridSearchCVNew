@@ -409,9 +409,9 @@ class GridSearchCVNew():
     def fit_xgboost(self, X, y, metric, enable_categorical = True, random_state = 0): 
         
         if self.class_weight_flag: 
-            return self.fit_xgboost_weighted(X, y, metric, enable_categorical = True, random_state = 0)
+            return self.fit_xgboost_weighted(X, y, metric, enable_categorical = enable_categorical, random_state = random_state)
         else: 
-            return self.fit_xgboost_weighted(X, y, metric, enable_categorical = True, random_state = 0)
+            return self.fit_xgboost_weighted(X, y, metric, enable_categorical = enable_categorical, random_state = random_state)
         
     def fit_xgboost_unweighted(self, X, y, metric, enable_categorical = True, random_state = 0): 
         
